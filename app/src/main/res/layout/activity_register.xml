@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/cover1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id = "@+id/zhucetupian"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img1"
+            android:layout_height="300dp"
+            android:layout_width="200dp" />
+        <TextView
+            android:id="@+id/user_id2"
+            android:layout_below="@id/zhucetupian"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:layout_marginStart="5dp" />
+
+        <EditText
+            android:id="@+id/text_userid2"
+            android:layout_below="@id/zhucetupian"
+            android:layout_toRightOf="@id/user_id2"
+            android:layout_toEndOf = "@id/user_id2"
+            android:layout_marginLeft="10dp"
+            android:layout_alignBottom = "@id/user_id2"
+            android:layout_alignTop="@id/user_id2"
+            android:hint="@string/shuxuehao"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#FFFFFF"
+            android:textSize="18sp"
+            android:paddingTop="0dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edittextbiankuang" />
+
+        <TextView
+            android:id="@+id/user_pwd2"
+            android:text="@string/mima"
+            android:layout_below="@id/user_id2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp" />
+
+        <EditText
+            android:id="@+id/text_userpwd2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_userid2"
+            android:layout_alignTop="@id/user_pwd2"
+            android:layout_alignBottom="@id/user_pwd2"
+            android:layout_toEndOf="@id/user_pwd2"
+            android:layout_toRightOf="@id/user_pwd2"
+            android:layout_alignLeft="@id/text_userid2"
+            android:hint="@string/srmm"
+            android:paddingTop="0dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_alignStart="@id/text_userid2"
+            android:background="@drawable/edittextbiankuang"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/text_userpwd2"
+            android:layout_marginTop="35dp">
+
+
+            <Button
+                android:id = "@+id/confirm"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/mydesign2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:textColor="#FFFFFFFF"
+                android:layout_marginStart="120dp" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myfuck"
+                android:textColor="#FFFFFFFF"
+                android:text="@string/back" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

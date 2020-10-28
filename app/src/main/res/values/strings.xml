@@ -1,0 +1,16 @@
+<resources>
+    <string name="s1">Hello</string>
+    <string name="s2">real estate price</string>
+    <string name="s3">Sign up</string>
+    <string name="s4">sex</string>
+    <string name="shuxuehao">    请输入账号</string>
+    <string name="username">username：</string>
+    <string name="mima">password：</string>
+    <string name="srmm">    请输入密码</string>
+    <string name="denglu">Log In</string>
+    <string name="confirm">confirm</string>
+    <string name="back">back</string>
+    <string name="menu">Menu</string>
+    <string name="ap">Print Srcs</string>
+    <string name="visitor_entry">visitor entry</string>
+</resources>
